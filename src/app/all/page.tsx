@@ -1,3 +1,4 @@
+import Like from "../components/[like]/Like"
 import OTPVerification from "../components/otp"
 export default function Page() {
     return (<>
@@ -8,6 +9,7 @@ export default function Page() {
 
         <div>
             <OTPVerification inputSize={4} />
+            <Like />
         </div>
     </div>
     </>)
